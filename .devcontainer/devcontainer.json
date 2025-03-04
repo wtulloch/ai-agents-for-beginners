@@ -1,5 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "azure-cli": "latest"
+  },
   "hostRequirements": {
     "cpus": 4
   },
@@ -10,6 +13,7 @@
     "codespaces": {
       "openFiles": []
     },
+    
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",
