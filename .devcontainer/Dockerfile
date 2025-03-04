@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/python:3.10-bookworm
+FROM mcr.microsoft.com/devcontainers/python:3.13-bookworm
 
 # Install pip for Python 3.11
 RUN python -m pip install --upgrade pip
